@@ -24,6 +24,18 @@ body.addEventListener('keydown', (e) => {
             case 20:
                 key = 'caps lock';
                 break;
+            case 37:
+                key = 'left arrow';
+                break;
+            case 38:
+                key = 'up arrow';
+                break;
+            case 39:
+                key = 'right arrow';
+                break;
+            case 40:
+                key = 'down arrow';
+                break;
             case 219:
                 key = 'left bracket';
                 break;
