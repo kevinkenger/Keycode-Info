@@ -15,6 +15,9 @@ body.addEventListener('keydown', (e) => {
             case 16:
                 key = 'shift';
                 break;
+            case 17:
+                key = 'control';
+                break;
             case 18:
                 key = 'alt';
                 break;
