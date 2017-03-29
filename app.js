@@ -5,7 +5,7 @@ body.addEventListener('keydown', (e) => {
     if ( e.which == 9 ) {
         e.preventDefault();
     }
-    const key = e.code.toLowerCase();
+    let key = e.code.toLowerCase();
     if ( key.includes('key') ) {
          key = key.replace(/key/i, '');
     } else if ( key.includes('digit') ) {
