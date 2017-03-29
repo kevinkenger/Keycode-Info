@@ -1,11 +1,11 @@
-var body = document.getElementsByTagName('body')[0];
+const body = document.body;
 keyEl = document.getElementById('key').firstElementChild;
 keyEl.textContent = 'press a key to get the keycode';
 body.addEventListener('keydown', (e) => {
     if ( e.which == 9 ) {
         e.preventDefault();
     }
-    var key = e.code.toLowerCase();
+    const key = e.code.toLowerCase();
     if ( key.includes('key') ) {
          key = key.replace(/key/i, '');
     } else if ( key.includes('digit') ) {
